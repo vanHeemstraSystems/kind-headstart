@@ -1,6 +1,6 @@
 # 200 - Installation of KinD on MacOS
 
-## On macOS via Homebrew:
+## On MacOS via Homebrew:
 
 ```
 brew install kind
@@ -8,7 +8,7 @@ COPY
 brew install kind
 ```
 
-## On macOS via MacPorts:
+## On MacOS via MacPorts:
 
 ```
 sudo port selfupdate && sudo port install kind
@@ -16,7 +16,7 @@ COPY
 sudo port selfupdate && sudo port install kind
 ```
 
-## On macOS via Bash:
+## On MacOS via Bash:
 
 ```
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-darwin-amd64
